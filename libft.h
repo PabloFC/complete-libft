@@ -6,7 +6,7 @@
 /*   By: pafuente <pafuente@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/13 13:06:21 by pafuente          #+#    #+#             */
-/*   Updated: 2025/05/13 13:51:53 by pafuente         ###   ########.fr       */
+/*   Updated: 2025/05/13 14:07:38 by pafuente         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,11 @@
 # include <stdarg.h>
 # include <stdlib.h>
 # include <signal.h>
+# include <sys/types.h>
+
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 42
+# endif
 
 //LIBFT FUNCTIONS//
 int		ft_isalpha(int c);

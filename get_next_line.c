@@ -6,11 +6,11 @@
 /*   By: pafuente <pafuente@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/26 11:20:03 by pafuente          #+#    #+#             */
-/*   Updated: 2025/02/03 13:36:54 by pafuente         ###   ########.fr       */
+/*   Updated: 2025/05/13 14:05:08 by pafuente         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "libft.h"
 
 //reads data from a file descriptor fd and appends it to a given string
 //str until a newline character is encountered or the end of the file is reached
